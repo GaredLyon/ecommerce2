@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*ROOT (contenedor global)///*/
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* HEADER (cabeceras)///////// */
+.header,
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: lightblue;
+}
+
+/* MAIN (contenedor)///////////*/
+.main{
+  min-height: 100vh;
+  flex-grow: 1;
+}
+
+/*OTROS/////////////////////////*/
