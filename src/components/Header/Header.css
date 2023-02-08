@@ -1,0 +1,9 @@
+.header{
+  background: crimson;
+  display: flex;
+  justify-content: space-between;
+}
+/* .header__logo,
+.header__nav ul{
+  display: flex;
+} */
